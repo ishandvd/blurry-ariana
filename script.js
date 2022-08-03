@@ -26,7 +26,7 @@ btn.addEventListener('click', () => {
 
 const background = random_item(pics)
 console.log('Random background is: ' + background)
-bg.style.background = `url(${background})`
+bg.style.background = `url(${background})  no-repeat center center/cover`
 
 
 let load = 0;
