@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', san-serif;
+    display: flex;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg {
+    background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/ariana-grande-breathin-video-1541611731.png') no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
+
+.refresh {
+    position: absolute;
+    top: 85%;
+    /* right: 50%; */
+    margin: auto;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    height: 70px;
+    width: 130px;
+    /* padding: 15px 32px; */
+    text-align: center;
+    font-size: 25px;
+    border-radius: 20%;
+    transition: ease 0.3s;
+    box-shadow: 1px 10px 30px 1px grey;
+}
+
+.refresh:hover {
+    background-color: #4CAF;
+    height: 80px;
+    width: 140px;
+    font-size: 28px;
+    box-shadow: none;
+
+}
